@@ -15,3 +15,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
     });
   }
 });
+
+setInterval(() => {
+  console.log("Keeping service worker alive. "+ Date.now());
+}, 5000);
