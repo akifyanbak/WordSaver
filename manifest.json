@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Kelime Kaydedici",
+  "version": "1.0",
+  "description": "Seçilen kelimeleri kaydedip yönetmenizi sağlar.",
+  "permissions": ["storage", "contextMenus"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
